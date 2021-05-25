@@ -1,0 +1,21 @@
+.white {
+  color: white;
+  margin: 0;
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.gray {
+  color: gray;
+  margin: 0;
+  font-size: 75px;
+  font-weight: 600;
+}
+
+.heading {
+  margin-top: 8%;
+  background-color: #1c1c20;
+  z-index: 3;
+  padding-bottom: 65px;
+  padding-left: 16%;
+}

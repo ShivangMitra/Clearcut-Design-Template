@@ -1,0 +1,171 @@
+.contents {
+  position: absolute;
+  top: 75%;
+  left: 0;
+  background-color: white;
+  width: 98.9vw;
+  height: auto;
+  border-radius: 50px;
+  z-index: -2;
+}
+
+.content-one {
+  height: 30%;
+  width: 35%;
+  margin-left: 50%;
+  font-size: 30px;
+  margin-top: 25vh;
+  margin-bottom: 25vh;
+}
+
+.overlap {
+  position: absolute;
+  top: -6%;
+  left: -10%;
+  z-index: -1;
+}
+
+.break {
+  display: flex;
+  margin: 0% 14%;
+  align-items: center;
+}
+
+.break hr {
+  height: 0px;
+  width: 700px;
+}
+
+.content-two {
+  display: flex;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+.card-one {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+}
+
+.card-two {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+}
+
+.img-one {
+  height: 100%;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.img-two {
+  height: 120px;
+  width: 120px;
+}
+
+.video {
+  border-radius: 15px;
+}
+
+.content-three {
+  background-color: rgb(247, 248, 251);
+  margin: 10% 0%;
+  padding-top: 5%;
+}
+
+.content-three-heading {
+  margin: 0% 18%;
+  margin-bottom: 10%;
+  font-size: 22px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0% 12%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  height: 400px;
+  width: 270px;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  margin-bottom: 50%;
+  box-shadow: 5px 20px 40px 10px #c0c0c0;
+}
+
+.card-content {
+  height: 200px;
+  width: 270px;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 71%;
+  box-shadow: 5px 20px 40px 10px #c0c0c0;
+}
+
+.content-four {
+  width: 500px;
+  margin: 15% 15%;
+}
+
+.wrapper-two {
+  position: absolute;
+  top: 94%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper-two a {
+  display: block;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: gray;
+  border: none;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  border-left: 5px solid #5e5e5e;
+  outline: none;
+  font-weight: bold;
+}
+
+.wrapper-two a span {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper-two a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #5e5e5e;
+  transition: all 0.35s;
+}
+
+.wrapper-two a:hover:after {
+  width: 100%;
+}

@@ -1,0 +1,83 @@
+.footer {
+  color: gray;
+  position: absolute;
+  top: 515%;
+  width: 70%;
+  margin: 0% 13%;
+}
+
+.upper-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10%;
+}
+
+.lower-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.touch {
+  display: flex;
+  flex-direction: column;
+}
+
+.address p {
+  margin-left: 42%;
+}
+
+.links {
+  width: 26%;
+}
+
+.footer-links svg {
+  margin: 0% 5%;
+}
+
+.footer-logo {
+  margin-left: 20%;
+}
+
+.wrapper {
+  position: absolute;
+  top: 25%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper a {
+  display: block;
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 40px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: gray;
+  border: none;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+  border-left: 5px solid #5e5e5e;
+  outline: none;
+}
+
+.wrapper a span {
+  position: relative;
+  z-index: 2;
+}
+
+.wrapper a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #5e5e5e;
+  transition: all 0.35s;
+}
+
+.wrapper a:hover:after {
+  width: 100%;
+}
